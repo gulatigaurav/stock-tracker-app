@@ -30,10 +30,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'# gem 'bcrypt', '~> 3.1.7'# gem 'bcrypt', '~> 3.1.7'
+gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
+gem 'devise-bootstrap-views', '~> 0.0.11'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'devise', '~> 4.2'
 group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
