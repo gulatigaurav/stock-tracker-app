@@ -1,5 +1,8 @@
 class Stock < ApplicationRecord
     # they need to be class level methods
+has_many :users_stocks
+has_many :users,through: :user_stocks
+
 
   def self.find_by_ticker(ticker_symbol)
     where(ticker: ticker_symbol).first
