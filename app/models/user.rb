@@ -6,7 +6,9 @@ class User < ApplicationRecord
   has_many :user_stocks
   has_many :stocks, through: :user_stocks
 
- def can_add_stock?(ticker_symbol)
+
+    
+    def can_add_stock?(ticker_symbol)
     under_stock_limit? && !stock_already_added?(ticker_symbol)
 
 
