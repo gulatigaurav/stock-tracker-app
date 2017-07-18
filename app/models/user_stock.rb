@@ -1,6 +1,4 @@
-class UserStock < ApplicationRecord
-
-belongs_to :user
-belongs_to :stock
-
+class UserStock < ActiveRecord::Base
+  belongs_to :user
+  belongs_to :stock
 end

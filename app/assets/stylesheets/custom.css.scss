@@ -1,32 +1,31 @@
 .results-block {
-display: inline-block;
-}
-.no-padding{
-    padding-left: 0 !important;    
-}
-.left-padding{
-    padding-left: 15px !important;
+  display: inline-block;
 }
 
-.btn-1{
-    padding-left: 3px;
-    padding-right: 3px;
+.no-padding {
+  padding: 0 !important;
+}
+
+.left-padding {
+  padding-left: 15px !important;
+}
+
+.logout {
+  padding-left: 0;
+}
+
+.user-name {
+  padding-top: 15px;
+}
+
+.nav.navbar-right li {
+  .btn {
+    color: #fff !important;
     margin-top: 5%;
-    margin-bottom: 5%;
+  }
+  .btn-danger:hover {
+    background-color: darken(#d9534f, 20%) !important;
+  }
 }
-.user-name{
-    padding-top: 15px;
-    font-size: 15px;
-    float: left;
-    padding-right: 10px;
-    margin-top: 3%;
-}
-.nav.navbar-right li{
-    .btn{
-        color: antiquewhite !important;
-        margin-top: 5%;
-    }
-    .btn-danger:hover{
-        background-color: darkred !important;
-    }
-}
+
+
